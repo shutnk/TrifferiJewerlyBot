@@ -121,5 +121,7 @@ async def profile(message: types.Message):
 async def back(message: types.Message):
     await start(message)
 
+import asyncio
+
 if __name__ == "__main__":
-    executor.start_polling(dp, skip_updates=True)
+    asyncio.run(dp.start_polling())
