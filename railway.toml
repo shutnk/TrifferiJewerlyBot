@@ -1,0 +1,4 @@
+# Railway deployment configuration
+# (This file is optional, but helps Railway detect your Python app)
+[build]
+  start = "python app/main.py"

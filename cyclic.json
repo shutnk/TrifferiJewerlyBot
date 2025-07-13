@@ -1,0 +1,5 @@
+{
+  "name": "trifferi-jewelry-bot",
+  "type": "python3",
+  "start": "python app/main.py"
+}
